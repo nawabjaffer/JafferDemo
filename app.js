@@ -11,7 +11,7 @@ app.get('/', function(req, res){
 });
 
 const PORT=process.enp.port;
-const IP='process.enp.ip';
+const IP=process.enp.ip';
 app.listen(PORT,IP,function(){
 	console.log("Node is server is up and running");
 })
