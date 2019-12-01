@@ -1,4 +1,4 @@
-const express=require("express");
+enpconst express=require("express");
 const app=express();
 console.log("hello")
 
@@ -10,8 +10,8 @@ app.get('/', function(req, res){
 	
 });
 
-const PORT=3000;
-const IP='127.0.0.1';
+const PORT=process.enp.port;
+const IP='process.enp.ip';
 app.listen(PORT,IP,function(){
 	console.log("Node is server is up and running");
 })
