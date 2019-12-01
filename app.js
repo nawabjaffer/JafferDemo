@@ -10,8 +10,8 @@ app.get('/', function(req, res){
 	
 });
 
-const PORT=process.enp.port;
-const IP=process.enp.ip';
+const PORT=process.env.port;
+const IP=process.env.ip';
 app.listen(PORT,IP,function(){
 	console.log("Node is server is up and running");
 })
